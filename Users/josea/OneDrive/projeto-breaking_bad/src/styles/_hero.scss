@@ -1,0 +1,84 @@
+@use "variables";
+
+.hero {
+    height: 100vh;
+    background-image: url(../images/fundo-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__content {
+        width: 50%;
+        align-items: center;
+
+        &__title {
+            color: variables.$ColorDestac;
+        }
+
+        p {
+            font-size: 40px;
+            line-height: 58px;
+            width: 100%;
+            color: variables.$ColorText;
+            font-weight: 700;
+
+            span {
+                color: variables.$ColorDestac;
+            }
+        }
+
+        &__links {
+            margin-top: 50px;
+
+            &__button {
+                padding: 6px 15px;
+                font-size: 18px;
+                font-weight: bold;
+                background-color: variables.$ColorDestac;
+                color: variables.$ColorTextButton;
+                border: none;
+                margin-right: 54px;
+                cursor: pointer;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+                color: variables.$ColorText;
+                font-weight: bold;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: -10px;
+                    bottom: -5px;
+                    width: 160px;
+                    height: 3px;
+                    background-color: variables.$ColorText;
+                }
+            }
+        }
+    }
+
+
+    &__images {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+
+        &__content {
+            display: flex;
+            &__item {
+                a {
+                    text-decoration: none;
+                    padding: 15px 10px;
+                    background-color: rgba(255, 255, 255, .15);
+                    color: variables.$ColorText;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
