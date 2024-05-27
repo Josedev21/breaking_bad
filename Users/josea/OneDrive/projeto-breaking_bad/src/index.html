@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breaking Bad</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" origem cruzada>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="folha de estilo">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="folha de estilo">
     <link rel="stylesheet" href="styles/main.scss">
 </head>
+
 <body>
     <section class="hero">
+        <div class="hero__tempo">
+            <div class="hero__tempo__content">
+                <p class="hero__tempo__content__info">
+                    Compre AGORA e pague apenas 50% no segundo frasco!
+                </p >
+                <p class="hero__tempo__content__info">
+                    Essa oferta acaba em: <span>8d 22hrs 20min 59seg</span>
+                </p >  
+            </div>
+        </div>
         <div class="container">
             <div class="hero__content">
                 <h5 class="hero__content__title">Breaking Bad</h5>
@@ -21,8 +34,14 @@
                     <button class="hero__content__links__button">Quero o produto</button>
                     <a href="#">Sobre o produto</a>
                 </div>
+                <div class="hero__eclipse__left">
+                    <img src="./images/Ellipse - hero-left.png" alt="">
+                </div>
             </div>
             <div class="hero__images">
+                <div class="hero__eclipse__right">
+                    <img src="./images/Ellipse - hero-right.png" alt="">
+                </div>
                 <img src="./images/elementos-hero.png" alt="">
                 <div class="hero__images__content">
                     <div class="hero__images__content__item">
@@ -37,6 +56,60 @@
             </div>
         </div>
     </section>
+    <section class="produto">
+        <div class="container">
+            <div class="produto__content">
+                <div class="produto__content__title">O Produto</div>
+                <p class="produto__content__info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis elit diam. <span>Sed varius
+                        erat
+                        id elit</span>
+                    vestibulum ornare. Donec fermentum eros at mauris facilisis sollicitudin. Duis libero magna, iaculis
+                    sed
+                    tempus at, malesuada eget ligula. Curabitur orci tellus, molestie et nulla quis, lobortis feugiat
+                    elit.
+                    Suspendisse sagittis placerat auctor. Duis ut tellus sed libero placerat porttitor et nec enim.
+                    Donec
+                    auctor, velit ut rhoncus aliquet, <span>nunc magna porttitor leo</span>, quis interdum velit purus
+                    in
+                    diam.
+                    Pellentesque et mattis sapien. Fusce consectetur pulvinar odio pellentesque tempus. Proin laoreet
+                    sed
+                    augue pretium imperdiet. Nunc fringilla lobortis urna vel pretium. Integer nec nunc elementum diam
+                    blandit gravida
+                </p>
+                <p class="produto__content__info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Aliquam quis elit diam</span>. Sed
+                    varius
+                    erat id elit
+                    vestibulum ornare. Donec fermentum eros at mauris facilisis sollicitudin. Duis libero magna, iaculis
+                    sed
+                    tempus at, malesuada eget ligula. Curabitur orci tellus, molestie et nulla quis, lobortis feugiat
+                    elit.
+                    Suspendisse sagittis placerat auctor. Duis ut tellus sed libero placerat <span>porttitor et nec
+                        enim.
+                        Donec</span>
+                </p>
+                <p class="produto__content__info">
+                    auctor, velit ut rhoncus aliquet, nunc magna porttitor leo, quis interdum velit purus in diam.
+                    Pellentesque et mattis sapien. Fusce <span>consectetur pulvinar odio pellentesque tempus</span>.
+                    Proin laoreet sed
+                    augue pretium imperdiet. Nunc fringilla lobortis urna vel pretium. Integer nec nunc elementum diam
+                    blandit gravida.
+                </p>
+
+                <button class="produto__content__button">Quero o produto</button>
+
+                <div class="produto__eclipse__left">
+                    <img src="./images/eclipse-section.png" alt="">
+                </div>
+            </div>
+            <div class="produto__image">
+                <img src="./images/capsulas-section.png" alt="">
+            </div>
+        </div>
+    </section>
     <script src="./scripts/main.js"></script>
 </body>
+
 </html>

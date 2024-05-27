@@ -1,5 +1,7 @@
 @use 'hero';
 @use 'variables';
+@use 'product';
+@use 'components/info__hero';
 
 * {
     margin: 0;
