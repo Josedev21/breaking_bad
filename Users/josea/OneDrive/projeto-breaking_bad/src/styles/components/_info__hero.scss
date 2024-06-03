@@ -11,6 +11,7 @@
         padding: 25px;
         border-radius: 19px;
         background-color: rgba(255, 171, 0, 0.31);
+        z-index: 1;
         
         &__info {
             display: block;
@@ -39,6 +40,9 @@
                     &:last-child {
                         display: flex;
                         flex-wrap: wrap;
+                        text-align: center;
+                        justify-content: center;
+                        
                     }
                 }
             }

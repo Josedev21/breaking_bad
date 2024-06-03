@@ -121,4 +121,20 @@
             }
         }
     }
+
+    @media (max-width:768px) {
+        .hero {
+            &__eclipse {
+                &__right {
+                    float: inline-start;
+                    margin-top: -400px;
+                    float: right;
+                }
+            }
+
+            &__content {
+                margin-top: -100px;
+            }
+        }
+    }
 }
